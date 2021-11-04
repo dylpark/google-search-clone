@@ -1,6 +1,6 @@
 # Google 2.0
 
-Google search engine rebuilt with React (Next.js) and Tailwind CSS. (Responsive, SSR React, Pagination). The app will use Google's Search API to display results.
+Google search engine rebuilt with React (Next.js) and Tailwind CSS. (Responsive, SSR React, Pagination, TypeScript). The app will use Google's Search API to display results.
 
 Created with, [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/).
 
