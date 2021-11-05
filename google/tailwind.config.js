@@ -8,4 +8,9 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  theme: {
+    colors: {
+      "google-gray": "#f8f9fa",
+    },
+  },
 };
