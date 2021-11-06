@@ -40,14 +40,18 @@ export default function Home() {
           width={300}
           alt=""
         />
-        <div className="flex w-full mt-5 hover:shadow-lg focus-within:shadow-lg max-w-md sm:max-w-xl lg:max-w-2xl rounded-full border border-gray-200 px-5 py-3 items-center">
+        <div className="flex w-full mt-5 hover:shadow-lg focus-within:shadow-lg max-w-md sm:max-w-xl lg:max-w-2xl rounded-full border border-gray-500 px-5 py-3 items-center">
           <SearchIcon className="h-5 mr-3 text-gray-500" />
           <input type="text" className="focus:outline-none flex-grow" />
           <MicrophoneIcon className="h-5 ml-3 text-gray-500" />
         </div>
         <div className="flex flex-col w-1/2 space-y-2 justify-center mt-8 sm:space-y-0 sm:flex-row sm:space-x-4">
-          <button className="google-gray p-3 rounded-md hover:ring-1 focus:outline-none active:ring-gray-300 ring-gray-200 hover:shadow-md text-sm text-gray-800">Google Search</button>
-          <button className="google-gray p-3 rounded-md hover:ring-1 focus:outline-none active:ring-gray-300 ring-gray-200 hover:shadow-md text-sm text-gray-800">I'm Feeling Lucky</button>
+          <button className="google-gray p-3 rounded-md hover:ring-1 focus:outline-none active:ring-gray-300 ring-gray-200 hover:shadow-md text-sm text-gray-800">
+            Google Search
+          </button>
+          <button className="google-gray p-3 rounded-md hover:ring-1 focus:outline-none active:ring-gray-300 ring-gray-200 hover:shadow-md text-sm text-gray-800">
+            I'm Feeling Lucky
+          </button>
         </div>
       </form>
       {/* Footer */}
