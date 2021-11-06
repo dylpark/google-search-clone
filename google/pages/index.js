@@ -18,13 +18,13 @@ export default function Home() {
       <header className="flex w-full p-5 justify-between text-sm text-gray-700">
         {/* Left Div */}
         <div className="flex space-x-4 items-center">
-          <p className="link">About</p>
-          <p className="link">Store</p>
+          <p className="hover:underline cursor-pointer">About</p>
+          <p className="hover:underline cursor-pointer">Store</p>
         </div>
         {/* Right Div */}
         <div className="flex space-x-4 items-center">
-          <p className="link">Gmail</p>
-          <p className="link">Images</p>
+          <p className="hover:underline cursor-pointer">Gmail</p>
+          <p className="hover:underline cursor-pointer">Images</p>
           {/* Icons */}
           <ViewGridIcon className="h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer" />
           {/* Avatar */}
@@ -46,8 +46,8 @@ export default function Home() {
           <MicrophoneIcon className="h-5 ml-3 text-gray-500" />
         </div>
         <div className="flex flex-col w-1/2 space-y-2 justify-center mt-8 sm:space-y-0 sm:flex-row sm:space-x-4">
-          <button className="btn">Google Search</button>
-          <button className="btn">I'm Feeling Lucky</button>
+          <button className="google-gray p-3 rounded-md hover:ring-1 focus:outline-none active:ring-gray-300 ring-gray-200 hover:shadow-md text-sm text-gray-800">Google Search</button>
+          <button className="google-gray p-3 rounded-md hover:ring-1 focus:outline-none active:ring-gray-300 ring-gray-200 hover:shadow-md text-sm text-gray-800">I'm Feeling Lucky</button>
         </div>
       </form>
       {/* Footer */}

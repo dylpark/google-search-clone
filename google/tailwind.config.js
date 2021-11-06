@@ -3,14 +3,12 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
+    colors: {
+      "bg-google-gray": "#f8f9fa",
+    },
   },
   variants: {
     extend: {},
   },
-  plugins: [],
-  theme: {
-    colors: {
-      "google-gray": "#f8f9fa",
-    },
-  },
+  plugins: [require("@tailwindcss/line-clamp")],
 };
