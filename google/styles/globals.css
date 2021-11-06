@@ -8,11 +8,11 @@
     p-3 rounded-md 
     focus:outline-none
     text-sm
-    /* active:ring-gray-300 */
-    /* hover:ring-1 */
-    /* ring-gray-200 */
-    /* hover:shadow-md */
-    /* text-gray-800 */;
+    /* active:ring-gray-300
+    hover:ring-1
+    ring-gray-200
+    hover:shadow-md
+    text-gray-800; */;
   }
 
   .link {
