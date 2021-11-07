@@ -1,11 +1,12 @@
-import Head from "next/head";
+import type { NextPage } from 'next'
+import Head from 'next/head'
+import Image from 'next/image'
 import Avatar from "../components/Avatar";
 import Footer from "../components/Footer";
-import Image from "next/image";
 import { MicrophoneIcon, ViewGridIcon } from "@heroicons/react/solid";
 import { SearchIcon } from "@heroicons/react/outline";
 
-export default function Home() {
+const Home: NextPage = () => {
   return (
     <div className="flex flex-col items-center justify-center h-screen">
       <Head>
@@ -40,16 +41,16 @@ export default function Home() {
           width={300}
           alt=""
         />
-        <div className="flex w-full mt-5 hover:shadow-lg focus-within:shadow-lg max-w-md sm:max-w-xl lg:max-w-2xl rounded-full border border-gray-500 px-5 py-3 items-center">
-          <SearchIcon className="h-5 mr-3 text-gray-500" />
+        <div className="flex w-full mt-5 hover:shadow-lg focus-within:shadow-lg max-w-md sm:max-w-xl lg:max-w-2xl rounded-full border border-gray-300 px-5 py-3 items-center">
+          <SearchIcon className="h-5 mr-3 text-gray-400" />
           <input type="text" className="focus:outline-none flex-grow" />
-          <MicrophoneIcon className="h-5 ml-3 text-gray-500" />
+          <MicrophoneIcon className="h-5 ml-3 text-gray-400" />
         </div>
         <div className="flex flex-col w-1/2 space-y-2 justify-center mt-8 sm:space-y-0 sm:flex-row sm:space-x-4">
-          <button className="google-gray p-3 rounded-md hover:ring-1 focus:outline-none active:ring-gray-300 ring-gray-200 hover:shadow-md text-sm text-gray-800">
+          <button className="p-3 bg-gray-100 rounded-md hover:outline-1 focus:outline-none hover:shadow-md text-sm text-gray-800">
             Google Search
           </button>
-          <button className="google-gray p-3 rounded-md hover:ring-1 focus:outline-none active:ring-gray-300 ring-gray-200 hover:shadow-md text-sm text-gray-800">
+          <button className="p-3 bg-gray-100 rounded-md hover:outline-1 focus:outline-none hover:shadow-md text-sm text-gray-800">
             I'm Feeling Lucky
           </button>
         </div>
@@ -59,3 +60,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default Home;
