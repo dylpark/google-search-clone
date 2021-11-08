@@ -8,6 +8,11 @@ import { MicrophoneIcon } from "@heroicons/react/solid";
 import { SearchIcon } from "@heroicons/react/outline";
 
 const Home: NextPage = () => {
+
+  const search = (e: { preventDefault: () => void; }) => {
+    e.preventDefault();
+  }
+
   return (
     <div className="flex flex-col items-center justify-center h-screen">
       <Head>
@@ -33,8 +38,8 @@ const Home: NextPage = () => {
           <MicrophoneIcon className="h-5 ml-3 text-gray-400" />
         </div>
         <div className="flex flex-col w-1/2 space-y-2 justify-center mt-8 sm:space-y-0 sm:flex-row sm:space-x-4">
-          <SearchButton name="Google Search" />
-          <SearchButton name="I'm Feeling Lucky" />
+          <SearchButton onClick={search} name="Google Search" />
+          <SearchButton onClick={search} name="I'm Feeling Lucky" />
         </div>
       </form>
       {/* Footer */}
