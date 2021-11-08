@@ -7,8 +7,8 @@ interface Props {
 
 const Footer: React.FC<Props> = () => {
   return (
-    <footer className="grid w-full  bg-gray-100 text-sm text-gray-500">
-      <div className="text-grey-footer px-8 py-3">
+    <footer className="grid w-full  bg-gray-100 text-sm">
+      <div className="text-grey-text px-8 py-3">
         <p>Australia</p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-y-4 grid-flow-row-dense px-8 py-3">

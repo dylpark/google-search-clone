@@ -9,7 +9,7 @@ interface Props {
 
 const Header: React.FC<Props> = () => {
     return (
-        <header className="flex w-full p-5 justify-between text-sm text-gray-700">
+        <header className="flex w-full p-5 justify-between text-sm">
             {/* Left Div */}
             <div className="flex space-x-4 items-center">
                 <HeaderLink name="About" />
