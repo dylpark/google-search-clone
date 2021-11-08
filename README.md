@@ -7,7 +7,9 @@ Created with, [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwind
 # Current State
 
 <img width="800" alt="HomePage" src="./google/preview/home.png">
-<img width="400" alt="HomePage" src="./google/preview/mobile.png">
+<img width="800" alt="HomePage" src="./google/preview/search.png">
+<img width="400" alt="HomePage" src="./google/preview/home-mobile.png">
+<img width="400" alt="HomePage" src="./google/preview/search-mobile.png">
 
 ## Getting Started
 
