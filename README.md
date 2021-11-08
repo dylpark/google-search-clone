@@ -4,6 +4,11 @@ Google search engine rebuilt with React (Next.js) and Tailwind CSS. (Responsive,
 
 Created with, [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/).
 
+# Current State
+
+<img width="800" alt="HomePage" src="./google/preview/home.png">
+<img width="400" alt="HomePage" src="./google/preview/mobile.png">
+
 ## Getting Started
 
 First, run:
