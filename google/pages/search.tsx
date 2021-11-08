@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import SearchHeader from "../components/SearchHeader"
+import HeaderOptions from "../components/HeaderOptions"
 
 const Search: NextPage = () => {
 
@@ -13,6 +14,7 @@ const Search: NextPage = () => {
             </Head>
 
             <SearchHeader />
+            <HeaderOptions />
 
         </div>
     );
