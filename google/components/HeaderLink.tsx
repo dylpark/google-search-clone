@@ -5,7 +5,7 @@ interface Props {
 }
 
 const HeaderLink: React.FC<Props> = ({ name }) => {
-    return <p className="hover:underline cursor-pointer">{name}</p>
+    return <p className="text-black-header hover:underline cursor-pointer">{name}</p>
 }
 
 export default HeaderLink;

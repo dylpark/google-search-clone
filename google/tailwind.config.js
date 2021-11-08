@@ -4,7 +4,12 @@ module.exports = {
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "grey-footer": "#70757A",
+        "black-header": "#202124",
+      },
+    },
     colors: {
       transparent: "transparent",
       current: "currentColor",
@@ -14,7 +19,6 @@ module.exports = {
       indigo: colors.indigo,
       red: colors.rose,
       yellow: colors.amber,
-      googlegray: "#f8f9fa",
     },
   },
   variants: {

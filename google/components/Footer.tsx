@@ -1,27 +1,26 @@
 //
 //
-import { GlobeIcon } from "@heroicons/react/solid"
+import FooterLink from "./FooterLink";
 
 interface Props {
-  // url: string;
 }
 
 const Footer: React.FC<Props> = () => {
   return (
     <footer className="grid w-full  bg-gray-100 text-sm text-gray-500">
-      <div className="px-8 py-3">
+      <div className="text-grey-footer px-8 py-3">
         <p>Australia</p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-y-4 grid-flow-row-dense px-8 py-3">
         <div className="flex justify-center md:justify-self-start space-x-8 whitespace-nowrap">
-          <p>Advertising</p>
-          <p>Business</p>
-          <p>How Search works</p>
+          <FooterLink name="Advertising" />
+          <FooterLink name="Business" />
+          <FooterLink name="How Search works" />
         </div>
         <div className="flex justify-center md:ml-auto space-x-8">
-          <p>Privacy</p>
-          <p>Terms</p>
-          <p>Settings</p>
+          <FooterLink name="Privacy" />
+          <FooterLink name="Terms" />
+          <FooterLink name="Settings" />
         </div>
       </div>
     </footer>
@@ -29,4 +28,3 @@ const Footer: React.FC<Props> = () => {
 }
 
 export default Footer;
-

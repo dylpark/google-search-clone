@@ -1,11 +1,10 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import Avatar from "../components/Avatar";
+import Header from '../components/Header';
 import Footer from "../components/Footer";
-import HeaderLink from "../components/HeaderLink";
 import SearchButton from "../components/SearchButton";
-import { MicrophoneIcon, ViewGridIcon } from "@heroicons/react/solid";
+import { MicrophoneIcon } from "@heroicons/react/solid";
 import { SearchIcon } from "@heroicons/react/outline";
 
 const Home: NextPage = () => {
@@ -18,22 +17,7 @@ const Home: NextPage = () => {
       </Head>
 
       {/* <Header */}
-      <header className="flex w-full p-5 justify-between text-sm text-gray-700">
-        {/* Left Div */}
-        <div className="flex space-x-4 items-center">
-          <HeaderLink name="About" />
-          <HeaderLink name="Store" />
-        </div>
-        {/* Right Div */}
-        <div className="flex space-x-4 items-center">
-          <HeaderLink name="Gmail" />
-          <HeaderLink name="Images" />
-          {/* Icons */}
-          <ViewGridIcon className="h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer" />
-          {/* Avatar */}
-          <Avatar url="https://avatars.githubusercontent.com/u/64296934?v=4" />
-        </div>
-      </header>
+      <Header />
 
       {/* Body */}
       <form className="flex flex-col items-center mt-44 flex-grow w-4/5">
