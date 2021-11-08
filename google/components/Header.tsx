@@ -1,8 +1,8 @@
+//
+//
 import Avatar from "../components/Avatar";
 import NavLink from "./NavLink"
 import { ViewGridIcon } from "@heroicons/react/solid";
-
-
 
 interface Props {
 }

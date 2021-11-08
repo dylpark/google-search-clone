@@ -15,7 +15,7 @@ const Footer: React.FC<Props> = () => {
         <div className="flex justify-center md:justify-self-start space-x-8 whitespace-nowrap">
           <NavLink name="Advertising" />
           <NavLink name="Business" />
-          <NavLink name="How Search works" />
+          <NavLink name="How Search Works" />
         </div>
         <div className="flex justify-center md:ml-auto space-x-8">
           <NavLink name="Privacy" />

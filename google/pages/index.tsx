@@ -44,7 +44,7 @@ const Home: NextPage = () => {
           width={300}
           alt=""
         />
-        <div className="flex w-full mt-5 hover:shadow-lg focus-within:shadow-lg max-w-md sm:max-w-xl lg:max-w-2xl rounded-full border border-gray-300 px-5 py-3 items-center">
+        <div className="flex w-full mt-5 hover:shadow-lg focus-within:shadow-lg max-w-md sm:max-w-xl lg:max-w-2xl rounded-full border border-gray-200 px-5 py-3 items-center">
           <SearchIcon className="h-5 mr-3 text-gray-400" />
           <input
             className="focus:outline-none flex-grow"
