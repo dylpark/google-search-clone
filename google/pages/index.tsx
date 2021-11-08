@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Avatar from "../components/Avatar";
 import Footer from "../components/Footer";
 import HeaderLink from "../components/HeaderLink";
+import SearchButton from "../components/SearchButton";
 import { MicrophoneIcon, ViewGridIcon } from "@heroicons/react/solid";
 import { SearchIcon } from "@heroicons/react/outline";
 
@@ -48,12 +49,8 @@ const Home: NextPage = () => {
           <MicrophoneIcon className="h-5 ml-3 text-gray-400" />
         </div>
         <div className="flex flex-col w-1/2 space-y-2 justify-center mt-8 sm:space-y-0 sm:flex-row sm:space-x-4">
-          <button className="p-3 bg-gray-100 rounded-md hover:outline-1 focus:outline-none hover:shadow-md text-sm text-gray-800">
-            Google Search
-          </button>
-          <button className="p-3 bg-gray-100 rounded-md hover:outline-1 focus:outline-none hover:shadow-md text-sm text-gray-800">
-            I'm Feeling Lucky
-          </button>
+          <SearchButton name="Google Search" />
+          <SearchButton name="I'm Feeling Lucky" />
         </div>
       </form>
       {/* Footer */}
