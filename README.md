@@ -4,9 +4,9 @@ Google search engine I'm currently building with React (Next.js) and Tailwind CS
 
 Created with, [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/).
 
-# [Click here to preview the build ->](https://google-two-lovat.vercel.app/)
+## [Click here to preview the build ->](https://google-two-lovat.vercel.app/)
 
-    Search is using dummy data, to not exhaust free api quota.
+Search is using dummy data, to not exhaust free api quota.
 
 ## Getting Started
 
