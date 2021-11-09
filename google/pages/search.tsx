@@ -2,6 +2,7 @@ import { NextPage } from 'next';
 import Head from 'next/head'
 import SearchBarMenu from "../components/Search/SearchBarMenu"
 import React from 'react';
+import response from '../response'
 
 interface Props {
     results: any;
@@ -31,11 +32,13 @@ export default Search;
 
 // Server Side Rendering Next.js
 export async function getServerSideProps(context: any) {
+
     const API_KEY = process.env.REACT_APP_API_KEY
     const CONTEXT_KEY = process.env.REACT_APP_CONTEXT_KEY
 
-    const useDummyData = false;
-    const data = await fetch(
+    const useDummyData = true;
+
+    const data = useDummyData ? response : await fetch(
         `https://www.googleapis.com/customsearch/v1?key=${API_KEY}&cx=${CONTEXT_KEY}&q=${context.query.term}`
     ).then(response => response.json());
 
