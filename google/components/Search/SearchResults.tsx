@@ -1,5 +1,6 @@
 //
 //
+import Pagination from "./Pagination"
 
 interface Props {
     results: any;
@@ -37,6 +38,8 @@ const SearchResults: React.FC<Props> = ({ results }) => {
                     <p className="line-clamp-2">{result.snippet}</p>
                 </div>
             ))}
+
+            <Pagination />
         </div>
     );
 }
