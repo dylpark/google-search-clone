@@ -1,6 +1,6 @@
 # Google 2.0
 
-Google search engine I'm currently building with React (Next.js) and Tailwind CSS. (Responsive, Server-Side Rendering, Pagination, TypeScript). The app will use Google's Search API to display results.
+Google search engine I'm currently building with React (Next.js) and Tailwind CSS. (Responsive, Server-Side Rendering, Pagination, TypeScript). The app is using Google's Search API to display results.
 
 Created with, [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/).
 
