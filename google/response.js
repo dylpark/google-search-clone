@@ -8,9 +8,9 @@ export default {
   queries: {
     request: [
       {
-        title: "Google Custom Search - Hello World",
-        totalResults: "8860000",
-        searchTerms: "Hello World",
+        title: "Google Custom Search - Google",
+        totalResults: "538000000",
+        searchTerms: "Google",
         count: 10,
         startIndex: 1,
         inputEncoding: "utf8",
@@ -21,9 +21,9 @@ export default {
     ],
     nextPage: [
       {
-        title: "Google Custom Search - Hello World",
-        totalResults: "8860000",
-        searchTerms: "Hello World",
+        title: "Google Custom Search - Google",
+        totalResults: "538000000",
+        searchTerms: "Google",
         count: 10,
         startIndex: 11,
         inputEncoding: "utf8",
@@ -37,479 +37,378 @@ export default {
     title: "Google",
   },
   searchInformation: {
-    searchTime: 0.615948,
-    formattedSearchTime: "0.62",
-    totalResults: "8860000",
-    formattedTotalResults: "8,860,000",
+    searchTime: 0.586972,
+    formattedSearchTime: "0.59",
+    totalResults: "538000000",
+    formattedTotalResults: "538,000,000",
   },
   items: [
     {
       kind: "customsearch#result",
-      title: "Hello World Podcast",
-      htmlTitle: "<b>Hello World</b> Podcast",
-      link: "https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy8yNTc0ZjhmNC9wb2RjYXN0L3Jzcw==",
+      title: "Google",
+      htmlTitle: "<b>Google</b>",
+      link: "https://www.google.com/",
       displayLink: "www.google.com",
       snippet:
-        "In Hello World Podcast we will explore a range of topics through the lens of some of our favorite subjects, to include: science, history, books, and art!",
+        "Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking ...",
       htmlSnippet:
-        "In <b>Hello World</b> Podcast we will explore a range of topics through the lens of some of our favorite subjects, to include: science, history, books, and art!",
-      cacheId: "22V0klFNxGMJ",
-      formattedUrl: "https://www.google.com/podcasts?feed...",
-      htmlFormattedUrl: "https://www.google.com/podcasts?feed...",
+        "Search the world&#39;s information, including webpages, images, videos and more. <b>Google</b> has many special features to help you find exactly what you&#39;re looking&nbsp;...",
+      cacheId: "y14FcUQOGl4J",
+      formattedUrl: "https://www.google.com/",
+      htmlFormattedUrl: "https://www.<b>google</b>.com/",
+      pagemap: {
+        cse_thumbnail: [
+          {
+            src: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT3X9ZpkcNrr2kAcGZuXPZTNiK1oeTXhRMCZ1UGxNLf-an4du0eriX01mc",
+            width: "320",
+            height: "112",
+          },
+        ],
+        metatags: [
+          {
+            referrer: "origin",
+            viewport: "width=device-width,minimum-scale=1.0",
+            google: "notranslate",
+            "format-detection": "telephone=no",
+          },
+        ],
+        cse_image: [
+          {
+            src: "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png",
+          },
+        ],
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "Google Account",
+      htmlTitle: "<b>Google</b> Account",
+      link: "https://www.google.com/account/about/",
+      displayLink: "www.google.com",
+      snippet:
+        "When you're signed in, all of the Google services you use work together seamlessly to offer help with everyday tasks like syncing your Gmail with your Google ...",
+      htmlSnippet:
+        "When you&#39;re signed in, all of the <b>Google</b> services you use work together seamlessly to offer help with everyday tasks like syncing your Gmail with your <b>Google</b>&nbsp;...",
+      cacheId: "uTrx5HJU9IsJ",
+      formattedUrl: "https://www.google.com/account/about/",
+      htmlFormattedUrl: "https://www.<b>google</b>.com/account/about/",
+      pagemap: {
+        cse_thumbnail: [
+          {
+            src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0l2LwmWHBY2fsxJhKiJ3lCBVCG_CnGXrYEqTdGxFgqcNHSNVEf5Vykw0",
+            width: "225",
+            height: "225",
+          },
+        ],
+        metatags: [
+          {
+            referrer: "no-referrer",
+            viewport: "initial-scale=1, minimum-scale=1, width=device-width",
+          },
+        ],
+        cse_image: [
+          {
+            src: "https://lh3.googleusercontent.com/n5VkLPYLHVzIOvT3t6U56xR28g1KFhO2U1PMCS1OLcM-loYSu4FihFLGA4hV_FcBMFdgf4skaXEN4GIETcFsT3rIm8DddCbLHsG0xg",
+          },
+        ],
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "Google",
+      htmlTitle: "<b>Google</b>",
+      link: "https://www.google.com/imghp?hl=en",
+      displayLink: "www.google.com",
+      snippet: "Google Images. The most comprehensive image search on the web.",
+      htmlSnippet:
+        "<b>Google</b> Images. The most comprehensive image search on the web.",
+      cacheId: "YlsaWFaoJpYJ",
+      formattedUrl: "https://www.google.com/imghp?hl=en",
+      htmlFormattedUrl: "https://www.<b>google</b>.com/imghp?hl=en",
       pagemap: {
         metatags: [
           {
+            referrer: "origin",
+            viewport: "width=device-width,minimum-scale=1.0",
+            google: "notranslate",
+            "format-detection": "telephone=no",
+          },
+        ],
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "Google My Business - Manage Your Business Profile",
+      htmlTitle: "<b>Google</b> My Business - Manage Your Business Profile",
+      link: "https://www.google.com/business/",
+      displayLink: "www.google.com",
+      snippet:
+        "Get your business listed on Google with a free Business Profile. See how you can turn people who find you on Search and Maps into new customers.",
+      htmlSnippet:
+        "Get your business listed on <b>Google</b> with a free Business Profile. See how you can turn people who find you on Search and Maps into new customers.",
+      cacheId: "MndpGW0Hv7wJ",
+      formattedUrl: "https://www.google.com/business/",
+      htmlFormattedUrl: "https://www.<b>google</b>.com/business/",
+      pagemap: {
+        cse_thumbnail: [
+          {
+            src: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQOTamsDphd1iSgPa68uuNjC2rDXDJQ_uum-mQ4E5MYJeeseMnhaKfVTYU",
+            width: "225",
+            height: "225",
+          },
+        ],
+        metatags: [
+          {
             "og:image":
-              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxWu1r26OBq5XXctzkWOyRSVC8toPypnP6juuLM0LpLM-vfeA",
-            "apple-itunes-app":
-              "app-id=1398000105, affiliate-data=ct=podcastsSmartBannerShow001&pt=9008, app-argument=https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8yNTc0ZjhmNC9wb2RjYXN0L3Jzcw",
-            "og:type": "music.radio_station",
+              "https://lh3.googleusercontent.com/mlUCKwnX9GvxtFmeqFCk93FlpM-fmMwUdrl31sP3Z2m8n6Kxy35Y9ln39dHTtuTbi0VW2mJ3rNbPKBfGqhR9fcrGO4I53vjBkk9jU9YZS_gevtedjDA",
+            "twitter:title":
+              "Google My Business - Manage Your Business Profile",
+            "og:type": "website",
             "twitter:card": "summary",
-            "twitter:title": "Hello World Podcast",
-            "og:site_name": "Google Podcasts",
-            "og:title": "Hello World Podcast",
-            "music:creator": "Hello World Podcast",
-            title: "Hello World Podcast",
+            "twitter:url": "https://www.google.com/business/",
+            "og:title": "Google My Business - Manage Your Business Profile",
             "og:description":
-              "In Hello World Podcast we will explore a range of topics through the lens of some of our favorite subjects, to include: science, history, books, and art! Plus a ton of fun segments that are sure to keep you on your toes! We hope you enjoy!🌍",
-            "twitter:creator": "Hello World Podcast",
-            "article:author": "Hello World Podcast",
+              "Get your business listed on Google with a free Business Profile. See how you can turn people who find you on Search and Maps into new customers.",
             "twitter:image":
-              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxWu1r26OBq5XXctzkWOyRSVC8toPypnP6juuLM0LpLM-vfeA",
-            referrer: "origin",
-            viewport:
-              "width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui",
-            "og:url":
-              "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8yNTc0ZjhmNC9wb2RjYXN0L3Jzcw",
+              "https://lh3.googleusercontent.com/mlUCKwnX9GvxtFmeqFCk93FlpM-fmMwUdrl31sP3Z2m8n6Kxy35Y9ln39dHTtuTbi0VW2mJ3rNbPKBfGqhR9fcrGO4I53vjBkk9jU9YZS_gevtedjDA",
+            referrer: "no-referrer",
+            viewport: "width=device-width, initial-scale=1.0",
+            "twitter:description":
+              "Get your business listed on Google with a free Business Profile. See how you can turn people who find you on Search and Maps into new customers.",
+            "og:locale": "en",
+            "og:url": "https://www.google.com/business/",
           },
         ],
         cse_image: [
           {
-            src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxWu1r26OBq5XXctzkWOyRSVC8toPypnP6juuLM0LpLM-vfeA",
+            src: "https://lh3.googleusercontent.com/mlUCKwnX9GvxtFmeqFCk93FlpM-fmMwUdrl31sP3Z2m8n6Kxy35Y9ln39dHTtuTbi0VW2mJ3rNbPKBfGqhR9fcrGO4I53vjBkk9jU9YZS_gevtedjDA",
           },
         ],
       },
     },
     {
       kind: "customsearch#result",
-      title: "Hello World-Podcasting with Magdalena",
-      htmlTitle: "<b>Hello World</b>-Podcasting with Magdalena",
-      link: "https://www.google.com/podcasts?feed=aHR0cHM6Ly93d3cuc3ByZWFrZXIuY29tL3Nob3cvMTkyNTgwNC9lcGlzb2Rlcy9mZWVk",
+      title: "Cloud Storage for Work and Home - Google Drive",
+      htmlTitle: "Cloud Storage for Work and Home - <b>Google</b> Drive",
+      link: "https://www.google.com/drive/",
       displayLink: "www.google.com",
       snippet:
-        "Hello World podcasting with Magdalena, bringing awareness to our reality for conscious living and co-creating. Information highway platform for Global ...",
+        "Safely store and share your photos, videos, files and more in the cloud. Your first 15 GB of storage are free with a Google account.",
       htmlSnippet:
-        "<b>Hello World</b> podcasting with Magdalena, bringing awareness to our reality for conscious living and co-creating. Information highway platform for Global&nbsp;...",
-      cacheId: "Q2H4Q2bYVSgJ",
-      formattedUrl: "https://www.google.com/podcasts?feed...",
-      htmlFormattedUrl: "https://www.google.com/podcasts?feed...",
+        "Safely store and share your photos, videos, files and more in the cloud. Your first 15 GB of storage are free with a <b>Google</b> account.",
+      cacheId: "uqmo4lUVIlEJ",
+      formattedUrl: "https://www.google.com/drive/",
+      htmlFormattedUrl: "https://www.<b>google</b>.com/drive/",
       pagemap: {
+        cse_thumbnail: [
+          {
+            src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_TZU8APpoBg6fjr9imhtB_kn3VsFOG_uYHD3l41vdAdbnbEZgS9PvsjHT",
+            width: "192",
+            height: "192",
+          },
+        ],
         metatags: [
           {
+            referrer: "no-referrer",
             "og:image":
-              "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ9RrWwoev6Khpu8m6-1PUoi-QJXd7lLJGi5mGfvds9_UnexoeZ",
-            "apple-itunes-app":
-              "app-id=1398000105, affiliate-data=ct=podcastsSmartBannerShow001&pt=9008, app-argument=https://podcasts.google.com/feed/aHR0cHM6Ly93d3cuc3ByZWFrZXIuY29tL3Nob3cvMTkyNTgwNC9lcGlzb2Rlcy9mZWVk",
-            "og:type": "music.radio_station",
-            "twitter:card": "summary",
-            "twitter:title": "Hello World-Podcasting with Magdalena",
-            "og:site_name": "Google Podcasts",
-            "og:title": "Hello World-Podcasting with Magdalena",
-            "music:creator": "Hello World-Podcasting with Magdalena",
-            title: "Hello World-Podcasting with Magdalena",
+              "https://ssl.gstatic.com/images/branding/product/2x/hh_drive_96dp.png",
+            "twitter:title": "Cloud Storage for Work and Home - Google Drive",
+            "og:type": "website",
+            viewport: "initial-scale=1, minimum-scale=1, width=device-width",
+            "twitter:url": "https://www.google.com/drive/",
+            "twitter:description":
+              "Safely store and share your photos, videos, files and more in the cloud. Your first 15 GB of storage are free with a Google account.",
+            "og:title": "Cloud Storage for Work and Home - Google Drive",
+            "og:url": "https://www.google.com/drive/",
+            "twitter:creator": "google",
             "og:description":
-              "Hello World podcasting with Magdalena, bringing awareness to our reality for conscious living and co-creating. Information highway platform for Global community, living in the 21 century and in the Era of Paradigm shift, by sharing information and views from others that can make a difference in the world and help with personal development and align with inner truth. About my services : life coaching, astrology/an energetic signature can be found on my website\nhttp://internationalwellnessnet.com/",
-            "twitter:creator": "Hello World-Podcasting with Magdalena",
-            "article:author": "Hello World-Podcasting with Magdalena",
+              "Safely store and share your photos, videos, files and more in the cloud. Your first 15 GB of storage are free with a Google account.",
             "twitter:image":
-              "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ9RrWwoev6Khpu8m6-1PUoi-QJXd7lLJGi5mGfvds9_UnexoeZ",
-            referrer: "origin",
-            viewport:
-              "width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui",
-            "og:url":
-              "https://podcasts.google.com/feed/aHR0cHM6Ly93d3cuc3ByZWFrZXIuY29tL3Nob3cvMTkyNTgwNC9lcGlzb2Rlcy9mZWVk",
+              "https://ssl.gstatic.com/images/branding/product/2x/hh_drive_96dp.png",
           },
         ],
         cse_image: [
           {
-            src: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ9RrWwoev6Khpu8m6-1PUoi-QJXd7lLJGi5mGfvds9_UnexoeZ",
+            src: "https://ssl.gstatic.com/images/branding/product/2x/hh_drive_96dp.png",
           },
         ],
       },
     },
     {
       kind: "customsearch#result",
-      title: "HELLO WORLD By TOSHA LYNETTE",
-      htmlTitle: "<b>HELLO WORLD</b>   By TOSHA LYNETTE",
-      link: "https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy9jN2I3ZTdjL3BvZGNhc3QvcnNz",
+      title: "Google Docs: Free Online Documents for Personal Use",
+      htmlTitle: "<b>Google</b> Docs: Free Online Documents for Personal Use",
+      link: "https://www.google.com/docs/about/",
       displayLink: "www.google.com",
       snippet:
-        "HELLO WORLD By TOSHA LYNETTE. Subscribe. Visit website. Daily inspiration and positivity vibes to get you through your day♥️. Available episodes.",
+        "Create a new document and edit it with others at the same time — from your computer, phone or tablet. Free with a Google account.",
       htmlSnippet:
-        "<b>HELLO WORLD</b>   By TOSHA LYNETTE. Subscribe. Visit website. Daily inspiration and positivity vibes to get you through your day♥️. Available episodes.",
-      cacheId: "G7pt77Qq5eMJ",
-      formattedUrl: "https://www.google.com/podcasts?feed...",
-      htmlFormattedUrl: "https://www.google.com/podcasts?feed...",
+        "Create a new document and edit it with others at the same time — from your computer, phone or tablet. Free with a <b>Google</b> account.",
+      cacheId: "B4Skq4M5akkJ",
+      formattedUrl: "https://www.google.com/docs/about/",
+      htmlFormattedUrl: "https://www.<b>google</b>.com/docs/about/",
+      pagemap: {
+        cse_thumbnail: [
+          {
+            src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhFqRE2gLrcYQFWHwv1e40obIYTwULT__yZcx3AWMhPOEZV7xqU_5_",
+            width: "120",
+            height: "120",
+          },
+        ],
+        metatags: [
+          {
+            viewport:
+              "width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no",
+          },
+        ],
+        cse_image: [
+          {
+            src: "https://www.google.com/docs/about/images/common/add-pam.jpg",
+          },
+        ],
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "Google Alerts - Monitor the Web for interesting new content",
+      htmlTitle:
+        "<b>Google</b> Alerts - Monitor the Web for interesting new content",
+      link: "https://www.google.com/alerts",
+      displayLink: "www.google.com",
+      snippet:
+        "Create Alert Update alertShow optionsHide options. Help center; Send Feedback; Terms of service · Privacy Policy. Main menu. Google apps.",
+      htmlSnippet:
+        "Create Alert Update alertShow optionsHide options. Help center; Send Feedback; Terms of service &middot; Privacy Policy. Main menu. <b>Google</b> apps.",
+      cacheId: "xf92VHvV6HgJ",
+      formattedUrl: "https://www.google.com/alerts",
+      htmlFormattedUrl: "https://www.<b>google</b>.com/alerts",
       pagemap: {
         metatags: [
           {
-            "og:image":
-              "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTiUaktwT9d_-deuVP3X41Z25mNS_0MDXg7L5MgygqGskSszpzI",
-            "apple-itunes-app":
-              "app-id=1398000105, affiliate-data=ct=podcastsSmartBannerShow001&pt=9008, app-argument=https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy9jN2I3ZTdjL3BvZGNhc3QvcnNz",
-            "og:type": "music.radio_station",
-            "twitter:card": "summary",
-            "twitter:title": "HELLO WORLD🌍 By TOSHA LYNETTE",
-            "og:site_name": "Google Podcasts",
-            "og:title": "HELLO WORLD🌍 By TOSHA LYNETTE",
-            "music:creator": "HELLO WORLD🌍 By TOSHA LYNETTE",
-            title: "HELLO WORLD🌍 By TOSHA LYNETTE",
-            "og:description":
-              "Daily inspiration and positivity vibes to get you through your day♥️",
-            "twitter:creator": "HELLO WORLD🌍 By TOSHA LYNETTE",
-            "article:author": "HELLO WORLD🌍 By TOSHA LYNETTE",
-            "twitter:image":
-              "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTiUaktwT9d_-deuVP3X41Z25mNS_0MDXg7L5MgygqGskSszpzI",
-            referrer: "origin",
-            viewport:
-              "width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui",
-            "og:url":
-              "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy9jN2I3ZTdjL3BvZGNhc3QvcnNz",
-          },
-        ],
-        cse_image: [
-          {
-            src: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTiUaktwT9d_-deuVP3X41Z25mNS_0MDXg7L5MgygqGskSszpzI",
+            viewport: "width=device-width, user-scalable=no",
           },
         ],
       },
     },
     {
       kind: "customsearch#result",
-      title: "Hello World It's Me",
-      htmlTitle: "<b>Hello World</b> It&#39;s Me",
-      link: "https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy80Y2Y1N2E4NC9wb2RjYXN0L3Jzcw==",
+      title: "The Keyword | Google",
+      htmlTitle: "The Keyword | <b>Google</b>",
+      link: "https://www.google.com/press/blog-social-directory.html",
       displayLink: "www.google.com",
       snippet:
-        "The world has evolved into a struggle between what's good and what's right. Join me every Sunday as I breakdown controversial issues about culture, ...",
+        "Discover all the latest about our products, technology, and Google culture on our official blog.",
       htmlSnippet:
-        "The <b>world</b> has evolved into a struggle between what&#39;s good and what&#39;s right. Join me every Sunday as I breakdown controversial issues about culture,&nbsp;...",
-      cacheId: "UloBJWbhVwcJ",
-      formattedUrl: "https://www.google.com/podcasts?feed...",
-      htmlFormattedUrl: "https://www.google.com/podcasts?feed...",
-      pagemap: {
-        metatags: [
-          {
-            "og:image":
-              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkrSuUsJ9qcrOZOZz8aJibPCCxjoeSm12DEp1bJTwXd0QsJXGn",
-            "apple-itunes-app":
-              "app-id=1398000105, affiliate-data=ct=podcastsSmartBannerShow001&pt=9008, app-argument=https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy80Y2Y1N2E4NC9wb2RjYXN0L3Jzcw",
-            "og:type": "music.radio_station",
-            "twitter:card": "summary",
-            "twitter:title": "Hello World It's Me",
-            "og:site_name": "Google Podcasts",
-            "og:title": "Hello World It's Me",
-            "music:creator": "Hello World It's Me",
-            title: "Hello World It's Me",
-            "og:description":
-              "The world has evolved into a struggle between what's good and what's right.\nJoin me every Sunday as I breakdown controversial issues about culture, politics and race.\nSo if you are a person who cares about the world around them and wants informed opinions this podcast is for you.",
-            "twitter:creator": "Hello World It's Me",
-            "article:author": "Hello World It's Me",
-            "twitter:image":
-              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkrSuUsJ9qcrOZOZz8aJibPCCxjoeSm12DEp1bJTwXd0QsJXGn",
-            referrer: "origin",
-            viewport:
-              "width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui",
-            "og:url":
-              "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy80Y2Y1N2E4NC9wb2RjYXN0L3Jzcw",
-          },
-        ],
-        cse_image: [
-          {
-            src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkrSuUsJ9qcrOZOZz8aJibPCCxjoeSm12DEp1bJTwXd0QsJXGn",
-          },
-        ],
-      },
-    },
-    {
-      kind: "customsearch#result",
-      title: "Hello World! Lets Talk About Coding",
-      htmlTitle: "<b>Hello World</b>! Lets Talk About Coding",
-      link: "https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy8xNDVjMDc0Yy9wb2RjYXN0L3Jzcw==",
-      displayLink: "www.google.com",
-      snippet:
-        "Hello World! is a podcast about students in the elementary level who express their opinions and experiences about using coding in the classroom.",
-      htmlSnippet:
-        "<b>Hello World</b>! is a podcast about students in the elementary level who express their opinions and experiences about using coding in the classroom.",
-      cacheId: "rcZYp5q2IsYJ",
-      formattedUrl: "https://www.google.com/podcasts?feed...",
-      htmlFormattedUrl: "https://www.google.com/podcasts?feed...",
-      pagemap: {
-        metatags: [
-          {
-            "og:image":
-              "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRbPE6Sl1zWOvOVGokioltXPzKGMgTx_V8JrvZxk70nbO2ivjU",
-            "apple-itunes-app":
-              "app-id=1398000105, affiliate-data=ct=podcastsSmartBannerShow001&pt=9008, app-argument=https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xNDVjMDc0Yy9wb2RjYXN0L3Jzcw",
-            "og:type": "music.radio_station",
-            "twitter:card": "summary",
-            "twitter:title": "Hello World! Lets Talk About Coding",
-            "og:site_name": "Google Podcasts",
-            "og:title": "Hello World! Lets Talk About Coding",
-            "music:creator": "Hello World! Lets Talk About Coding",
-            title: "Hello World! Lets Talk About Coding",
-            "og:description":
-              "Hello World! is a podcast about students in the elementary level who express their opinions and experiences about using coding in the classroom.",
-            "twitter:creator": "Hello World! Lets Talk About Coding",
-            "article:author": "Hello World! Lets Talk About Coding",
-            "twitter:image":
-              "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRbPE6Sl1zWOvOVGokioltXPzKGMgTx_V8JrvZxk70nbO2ivjU",
-            referrer: "origin",
-            viewport:
-              "width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui",
-            "og:url":
-              "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xNDVjMDc0Yy9wb2RjYXN0L3Jzcw",
-          },
-        ],
-        cse_image: [
-          {
-            src: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRbPE6Sl1zWOvOVGokioltXPzKGMgTx_V8JrvZxk70nbO2ivjU",
-          },
-        ],
-      },
-    },
-    {
-      kind: "customsearch#result",
-      title: "The HELLO World Podcast",
-      htmlTitle: "The <b>HELLO World</b> Podcast",
-      link: "https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy8yYjQwOGJlMC9wb2RjYXN0L3Jzcw==",
-      displayLink: "www.google.com",
-      snippet:
-        "The HELLO World Podcast. Louie Banta. The HELLO World Podcast. Subscribe. Visit website. We started this podcast with these 3 intentions -- To inform, ...",
-      htmlSnippet:
-        "The <b>HELLO World</b> Podcast. Louie Banta. The <b>HELLO World</b> Podcast. Subscribe. Visit website. We started this podcast with these 3 intentions -- To inform,&nbsp;...",
-      cacheId: "Ktz_seXorXEJ",
-      formattedUrl: "https://www.google.com/podcasts?feed...",
-      htmlFormattedUrl: "https://www.google.com/podcasts?feed...",
-      pagemap: {
-        metatags: [
-          {
-            "og:image":
-              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_rgRo0aQe4C4sHH856obSSrhhED98v9ctLWgpO-lRlHPdkIU",
-            "apple-itunes-app":
-              "app-id=1398000105, affiliate-data=ct=podcastsSmartBannerShow001&pt=9008, app-argument=https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8yYjQwOGJlMC9wb2RjYXN0L3Jzcw",
-            "og:type": "music.radio_station",
-            "twitter:card": "summary",
-            "twitter:title": "The HELLO World Podcast",
-            "og:site_name": "Google Podcasts",
-            "og:title": "The HELLO World Podcast",
-            "music:creator": "The HELLO World Podcast",
-            title: "The HELLO World Podcast",
-            "og:description":
-              "We started this podcast with these 3 intentions -- To inform, inspire, and ignite actions.\n\nHosted by Louie Banta, we feature discussions/ interviews related to “H.E.L.L.O.” - which is our acronym for the 5 topics that we talk about every episode.\n\nH - ustle/ Habits of Excellence/ Success\nE - ntrepreneurship\nL - eadership\nL - earning\nO - utlook, Mindsets, Behaviors\n\nBeing a training-consulting company for 15 years, with extensive knowledge and experience in each topic in “H.E.L.L.O.”, we created this podcast to bring “H.E.L.L.O.” closer to the WORLD.\n\nNow on its Season 2!",
-            "twitter:creator": "The HELLO World Podcast",
-            "article:author": "The HELLO World Podcast",
-            "twitter:image":
-              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_rgRo0aQe4C4sHH856obSSrhhED98v9ctLWgpO-lRlHPdkIU",
-            referrer: "origin",
-            viewport:
-              "width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui",
-            "og:url":
-              "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8yYjQwOGJlMC9wb2RjYXN0L3Jzcw",
-          },
-        ],
-        cse_image: [
-          {
-            src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_rgRo0aQe4C4sHH856obSSrhhED98v9ctLWgpO-lRlHPdkIU",
-          },
-        ],
-      },
-    },
-    {
-      kind: "customsearch#result",
-      title: "Hello world",
-      htmlTitle: "<b>Hello world</b>",
-      link: "https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy80NTg4YjI4NC9wb2RjYXN0L3Jzcw==",
-      displayLink: "www.google.com",
-      snippet:
-        "Giggles into to pod casting! I we'll be talking about politics hot topics in the world books and authors MS autism and other factors that affect our lives ...",
-      htmlSnippet:
-        "Giggles into to pod casting! I we&#39;ll be talking about politics hot topics in the <b>world</b> books and authors MS autism and other factors that affect our lives&nbsp;...",
-      cacheId: "fncUsD8DoLUJ",
-      formattedUrl: "https://www.google.com/podcasts?feed...",
-      htmlFormattedUrl: "https://www.google.com/podcasts?feed...",
-      pagemap: {
-        metatags: [
-          {
-            "og:image":
-              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST8pvGT_MiIIGzB2u-B0vrRyjB_Y74AOXDtMzbl2udd00Uh2e9",
-            "apple-itunes-app":
-              "app-id=1398000105, affiliate-data=ct=podcastsSmartBannerShow001&pt=9008, app-argument=https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy80NTg4YjI4NC9wb2RjYXN0L3Jzcw",
-            "og:type": "music.radio_station",
-            "twitter:card": "summary",
-            "twitter:title": "Hello world",
-            "og:site_name": "Google Podcasts",
-            "og:title": "Hello world",
-            "music:creator": "Hello world",
-            title: "Hello world",
-            "og:description":
-              "Giggles into to pod casting! I we'll be talking about politics hot topics in the world books and authors MS autism and other factors that affect our lives on daily basis please subscribe. I hope to make it fun for everyone.",
-            "twitter:creator": "Hello world",
-            "article:author": "Hello world",
-            "twitter:image":
-              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST8pvGT_MiIIGzB2u-B0vrRyjB_Y74AOXDtMzbl2udd00Uh2e9",
-            referrer: "origin",
-            viewport:
-              "width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui",
-            "og:url":
-              "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy80NTg4YjI4NC9wb2RjYXN0L3Jzcw",
-          },
-        ],
-        cse_image: [
-          {
-            src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST8pvGT_MiIIGzB2u-B0vrRyjB_Y74AOXDtMzbl2udd00Uh2e9",
-          },
-        ],
-      },
-    },
-    {
-      kind: "customsearch#result",
-      title: "hello world podcast by Marett Vacek",
-      htmlTitle: "<b>hello world</b> podcast by Marett Vacek",
-      link: "https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy9lNmVjNjgwL3BvZGNhc3QvcnNz",
-      displayLink: "www.google.com",
-      snippet:
-        "Sep 28, 2019 ... Hello, world! Marett Vacek. Hello, world! Subscribe. Visit website. school memoir podcast. Available episodes.",
-      htmlSnippet:
-        "Sep 28, 2019 <b>...</b> <b>Hello</b>, <b>world</b>! Marett Vacek. <b>Hello</b>, <b>world</b>! Subscribe. Visit website. school memoir podcast. Available episodes.",
-      cacheId: "OOABNuz7Bu8J",
-      formattedUrl: "https://www.google.com/podcasts?feed...",
-      htmlFormattedUrl: "https://www.google.com/podcasts?feed...",
-      pagemap: {
-        metatags: [
-          {
-            "og:image":
-              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmm5a9ZKBaZ7Tkqqxh86nFBZ0egNEf7_KY1BH3LqZT8oBNoJQ",
-            "apple-itunes-app":
-              "app-id=1398000105, affiliate-data=ct=podcastsSmartBannerShow001&pt=9008, app-argument=https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy9lNmVjNjgwL3BvZGNhc3QvcnNz",
-            "og:type": "music.radio_station",
-            "twitter:card": "summary",
-            "twitter:title": "Hello, world!",
-            "og:site_name": "Google Podcasts",
-            "og:title": "Hello, world!",
-            "music:creator": "Hello, world!",
-            title: "Hello, world!",
-            "og:description": "school memoir podcast",
-            "twitter:creator": "Hello, world!",
-            "article:author": "Hello, world!",
-            "twitter:image":
-              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmm5a9ZKBaZ7Tkqqxh86nFBZ0egNEf7_KY1BH3LqZT8oBNoJQ",
-            referrer: "origin",
-            viewport:
-              "width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui",
-            "og:url":
-              "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy9lNmVjNjgwL3BvZGNhc3QvcnNz",
-          },
-        ],
-        cse_image: [
-          {
-            src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmm5a9ZKBaZ7Tkqqxh86nFBZ0egNEf7_KY1BH3LqZT8oBNoJQ",
-          },
-        ],
-      },
-    },
-    {
-      kind: "customsearch#result",
-      title: "Hello World Podcast",
-      htmlTitle: "<b>Hello World</b> Podcast",
-      link: "https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy8zOGE4NGYyMC9wb2RjYXN0L3Jzcw==",
-      displayLink: "www.google.com",
-      snippet:
-        "Hello World Podcast. Joshua Karickal. Hello World Podcast. Subscribe. Visit website. It is about me introducing myself to the world. Available episodes.",
-      htmlSnippet:
-        "<b>Hello World</b> Podcast. Joshua Karickal. <b>Hello World</b> Podcast. Subscribe. Visit website. It is about me introducing myself to the world. Available episodes.",
-      cacheId: "JL2G8-VeVhUJ",
-      formattedUrl: "https://www.google.com/podcasts?feed...",
-      htmlFormattedUrl: "https://www.google.com/podcasts?feed...",
-      pagemap: {
-        metatags: [
-          {
-            "og:image":
-              "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRW04duxYSbEWjqU2ZOz5IbBdazDl-vbonSjyCf-dEA3oV1UU4",
-            "apple-itunes-app":
-              "app-id=1398000105, affiliate-data=ct=podcastsSmartBannerShow001&pt=9008, app-argument=https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8zOGE4NGYyMC9wb2RjYXN0L3Jzcw",
-            "og:type": "music.radio_station",
-            "twitter:card": "summary",
-            "twitter:title": "Hello World Podcast",
-            "og:site_name": "Google Podcasts",
-            "og:title": "Hello World Podcast",
-            "music:creator": "Hello World Podcast",
-            title: "Hello World Podcast",
-            "og:description": "It is about me introducing myself to the world.",
-            "twitter:creator": "Hello World Podcast",
-            "article:author": "Hello World Podcast",
-            "twitter:image":
-              "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRW04duxYSbEWjqU2ZOz5IbBdazDl-vbonSjyCf-dEA3oV1UU4",
-            referrer: "origin",
-            viewport:
-              "width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui",
-            "og:url":
-              "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8zOGE4NGYyMC9wb2RjYXN0L3Jzcw",
-          },
-        ],
-        cse_image: [
-          {
-            src: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRW04duxYSbEWjqU2ZOz5IbBdazDl-vbonSjyCf-dEA3oV1UU4",
-          },
-        ],
-      },
-    },
-    {
-      kind: "customsearch#result",
-      title: "Hello World Shopping",
-      htmlTitle: "<b>Hello World</b> Shopping",
-      link: "https://www.google.com/mymaps/viewer?mid=zHQsrThy9kNg.k0nhcDgmvBfs&hl=it",
-      displayLink: "www.google.com",
-      snippet:
-        "Realizzato con Google My Maps. Nessun risultato. Cerca in questa mappa. Sposta mappa in. Dalla tua mappa. mostra tutto sulla mappa. Da Google ...",
-      htmlSnippet:
-        "Realizzato con Google My Maps. Nessun risultato. Cerca in questa mappa. Sposta mappa in. Dalla tua mappa. mostra tutto sulla mappa. Da Google&nbsp;...",
-      cacheId: "q0-peCHq4tIJ",
-      formattedUrl:
-        "https://www.google.com/mymaps/viewer?mid=zHQsrThy9kNg...hl=it",
+        "Discover all the latest about our products, technology, and <b>Google</b> culture on our official blog.",
+      cacheId: "WqwvZlPx6jkJ",
+      formattedUrl: "https://www.google.com/press/blog-social-directory.html",
       htmlFormattedUrl:
-        "https://www.google.com/mymaps/viewer?mid=zHQsrThy9kNg...hl=it",
+        "https://www.<b>google</b>.com/press/blog-social-directory.html",
       pagemap: {
-        website: [
+        cse_thumbnail: [
           {
-            image:
-              "https://www.google.com/maps/d/thumbnail?mid=1LURvBzdptdvnuQ5lYFaQvSzbLLk&hl=it",
-            name: "Hello World Shopping",
-            description: "Hello World Shopping",
-            url: "https://www.google.com/maps/d/viewer?mid=1LURvBzdptdvnuQ5lYFaQvSzbLLk&hl=it",
+            src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsXc7YjxlvK-eyH1lAqd1Sn69xf5zmGKppDDZsi4C5edqD9oOIV-eV3t3y",
+            width: "200",
+            height: "200",
           },
         ],
         metatags: [
           {
             "og:image":
-              "https://www.google.com/maps/d/thumbnail?mid=1LURvBzdptdvnuQ5lYFaQvSzbLLk&hl=it",
+              "https://blog.google/static/blogv2/images/google-200x200.png",
             "og:type": "website",
             "twitter:card": "summary_large_image",
-            "twitter:title": "Hello World Shopping",
-            viewport:
-              "initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0,width=device-width",
-            "twitter:description": "Hello World Shopping",
-            "og:title": "Hello World Shopping",
-            "og:url":
-              "https://www.google.com/maps/d/viewer?mid=1LURvBzdptdvnuQ5lYFaQvSzbLLk&hl=it",
-            "og:description": "Hello World Shopping",
+            "twitter:title": "The Keyword",
+            "og:site_name": "blog.google",
+            "twitter:url": "https://blog.google/",
+            "og:title": "The Keyword",
+            "gtm-tag": "GTM-TRV24V",
+            optimize_experiments:
+              "[{'id': 'IungncqGT5aYjbKizZW9zw', 'signature': 'sha256-7597e7f2907d399dd1a119a2744cbaec6dfca99fe1367645bbbbe1aac9cad23f'}]",
+            "og:description":
+              "Discover all the latest about our products, technology, and Google culture on our official blog.",
             "twitter:image:src":
-              "https://www.google.com/maps/d/thumbnail?mid=1LURvBzdptdvnuQ5lYFaQvSzbLLk&hl=it",
+              "https://blog.google/static/blogv2/images/google-200x200.png",
+            "twitter:site": "@google",
+            viewport:
+              "width=device-width, initial-scale=1.0, user-scalable=1.0, minimum-scale=1.0",
+            "twitter:description":
+              "Discover all the latest about our products, technology, and Google culture on our official blog.",
+            "og:url": "https://blog.google/",
           },
         ],
         cse_image: [
           {
-            src: "https://www.google.com/maps/d/thumbnail?mid=1LURvBzdptdvnuQ5lYFaQvSzbLLk&hl=it",
+            src: "https://blog.google/static/blogv2/images/google-200x200.png",
+          },
+        ],
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "Google Forms: Free Online Surveys for Personal Use",
+      htmlTitle: "<b>Google</b> Forms: Free Online Surveys for Personal Use",
+      link: "https://www.google.com/forms/about/",
+      displayLink: "www.google.com",
+      snippet:
+        "Create a new survey and edit it with others at the same time. Choose from a variety of pre-made themes or create your own. Free with a Google account.",
+      htmlSnippet:
+        "Create a new survey and edit it with others at the same time. Choose from a variety of pre-made themes or create your own. Free with a <b>Google</b> account.",
+      cacheId: "DQBEwPZfQ7YJ",
+      formattedUrl: "https://www.google.com/forms/about/",
+      htmlFormattedUrl: "https://www.<b>google</b>.com/forms/about/",
+      pagemap: {
+        cse_thumbnail: [
+          {
+            src: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTBy2Hf-wJ3myS37Oe7PpUH7G4PIGfcF08ZRJ0ZfMczLnQ-r2Mt4wao",
+            width: "120",
+            height: "120",
+          },
+        ],
+        metatags: [
+          {
+            viewport:
+              "width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no",
+          },
+        ],
+        cse_image: [
+          {
+            src: "https://www.google.com/forms/about/images/common/add-tom.jpg",
+          },
+        ],
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "Google Slides: Free Online Presentations for Personal Use",
+      htmlTitle:
+        "<b>Google</b> Slides: Free Online Presentations for Personal Use",
+      link: "https://www.google.com/slides/about/",
+      displayLink: "www.google.com",
+      snippet:
+        "Create a new presentation and edit it with others at the same time — from your computer, phone or tablet. Free with a Google account.",
+      htmlSnippet:
+        "Create a new presentation and edit it with others at the same time — from your computer, phone or tablet. Free with a <b>Google</b> account.",
+      cacheId: "BqbRM4Tdrv4J",
+      formattedUrl: "https://www.google.com/slides/about/",
+      htmlFormattedUrl: "https://www.<b>google</b>.com/slides/about/",
+      pagemap: {
+        cse_thumbnail: [
+          {
+            src: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS1kSln2ksdd2AV8fXzGqs682zFsdIBlpuwsLDEBCnNM7p92Fvd6clBNQ",
+            width: "120",
+            height: "120",
+          },
+        ],
+        metatags: [
+          {
+            viewport:
+              "width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no",
+          },
+        ],
+        cse_image: [
+          {
+            src: "https://www.google.com/slides/about/images/common/add-tom.jpg",
           },
         ],
       },

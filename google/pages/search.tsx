@@ -25,7 +25,7 @@ const Search: NextPage<Props> = ({ results }) => {
             <SearchBarMenu />
 
             {/* Search Results */}
-            <SearchResults />
+            <SearchResults results={results} />
         </div>
     );
 }
