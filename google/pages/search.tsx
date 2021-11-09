@@ -1,9 +1,15 @@
-import type { NextPage } from 'next'
+import { NextPage } from 'next';
 import Head from 'next/head'
 import SearchBarMenu from "../components/Search/SearchBarMenu"
+import React from 'react';
 
+interface Props {
+    results: any;
+}
 
-const Search: NextPage = () => {
+const Search: NextPage<Props> = ({ results }) => {
+
+    console.log(results);
 
     return (
         <div className="">
@@ -15,8 +21,24 @@ const Search: NextPage = () => {
 
             <SearchBarMenu />
 
+            {/* Search Results */}
+
         </div>
     );
 }
 
 export default Search;
+
+// Server Side Rendering Next.js
+export async function getServerSideProps(context: any) {
+    const API_KEY = process.env.REACT_APP_API_KEY
+    const CONTEXT_KEY = process.env.REACT_APP_CONTEXT_KEY
+
+    const useDummyData = false;
+    const data = await fetch(
+        `https://www.googleapis.com/customsearch/v1?key=${API_KEY}&cx=${CONTEXT_KEY}&q=${context.query.term}`
+    ).then(response => response.json());
+
+    // After Server Render, Pass the Results to Client
+    return { props: { results: data } }
+}

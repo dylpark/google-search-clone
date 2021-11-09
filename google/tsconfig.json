@@ -15,7 +15,7 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/api/hello.js", "components/SearchOption.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/api/hello.js", "components/SearchOption.jsx", "pages/search.tsx", "pages/search.tsx"],
   "exclude": ["node_modules"]
 }
 
