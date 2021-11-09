@@ -1,7 +1,7 @@
 //
 //
 import SearchType from "./SearchType"
-import Link from "../Link"
+import BasicLink from "../BasicLink"
 
 import {
     SearchIcon,
@@ -14,7 +14,7 @@ import {
 
 const SearchTypes: React.FC = () => {
     return (
-        <div className="flex w-full text-grey-text justify-evenly text-sm lg:text-base lg:justify-start lg:space-x-36 lg:pl-52 border-b-[1px]">
+        <div className="flex w-full text-grey-text justify-evenly text-sm lg:text-base lg:justify-start lg:space-x-36 lg:pl-52 border-b-2">
             {/* Left */}
             <div className="flex space-x-6">
                 <SearchType Icon={SearchIcon} title="All" selected />
@@ -27,8 +27,8 @@ const SearchTypes: React.FC = () => {
 
             {/* Right */}
             <div className="flex space-x-4">
-                <Link name="Settings" />
-                <Link name="Tools" />
+                <BasicLink name="Settings" />
+                <BasicLink name="Tools" />
             </div>
         </div>
     );
