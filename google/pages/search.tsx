@@ -1,8 +1,10 @@
-import { NextPage } from 'next';
-import Head from 'next/head'
+import { NextPage } from "next";
+import Head from "next/head"
 import SearchBarMenu from "../components/Search/SearchBarMenu"
-import React from 'react';
-import response from '../response'
+import React from "react";
+import response from "../response"
+import { useRouter } from "next/router"
+import SearchResults from "../components/Search/SearchResults"
 
 interface Props {
     results: any;
@@ -23,7 +25,7 @@ const Search: NextPage<Props> = ({ results }) => {
             <SearchBarMenu />
 
             {/* Search Results */}
-
+            <SearchResults />
         </div>
     );
 }
@@ -37,9 +39,10 @@ export async function getServerSideProps(context: any) {
     const CONTEXT_KEY = process.env.REACT_APP_CONTEXT_KEY
 
     const useDummyData = true;
+    const startIndex = context.query.start || "0";
 
     const data = useDummyData ? response : await fetch(
-        `https://www.googleapis.com/customsearch/v1?key=${API_KEY}&cx=${CONTEXT_KEY}&q=${context.query.term}`
+        `https://www.googleapis.com/customsearch/v1?key=${API_KEY}&cx=${CONTEXT_KEY}&q=${context.query.term}&start=${startIndex}`
     ).then(response => response.json());
 
     // After Server Render, Pass the Results to Client

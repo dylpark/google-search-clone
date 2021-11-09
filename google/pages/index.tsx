@@ -1,12 +1,12 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import Header from '../components/Home/Header';
+import type { NextPage } from "next"
+import Head from "next/head"
+import Image from "next/image"
+import Header from "../components/Home/Header";
 import Footer from "../components/Home/Footer";
 import SearchButton from "../components/Home/SearchButton";
 import { MicrophoneIcon } from "@heroicons/react/solid";
 import { SearchIcon } from "@heroicons/react/outline";
-import { useRef } from 'react';
+import { useRef } from "react";
 import { useRouter } from "next/router"
 
 const Home: NextPage = () => {
