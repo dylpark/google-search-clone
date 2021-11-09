@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import SearchHeader from "../components/SearchHeader"
-import HeaderOptions from "../components/HeaderOptions"
+import SearchBarMenu from "../components/Search/SearchBarMenu"
+
 
 const Search: NextPage = () => {
 
@@ -13,8 +13,7 @@ const Search: NextPage = () => {
                 {/* <link rel="icon" href="/favicon.ico" /> */}
             </Head>
 
-            <SearchHeader />
-            <HeaderOptions />
+            <SearchBarMenu />
 
         </div>
     );

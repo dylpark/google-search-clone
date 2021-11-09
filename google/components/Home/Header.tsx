@@ -1,7 +1,7 @@
 //
 //
-import Avatar from "../components/Avatar";
-import NavLink from "./NavLink"
+import Avatar from "../Avatar";
+import Link from "../Link"
 import { ViewGridIcon } from "@heroicons/react/solid";
 
 interface Props {
@@ -12,13 +12,13 @@ const Header: React.FC<Props> = () => {
         <header className="text-black-text flex w-full p-5 justify-between text-sm">
             {/* Left Div */}
             <div className="flex space-x-4 items-center">
-                <NavLink name="About" />
-                <NavLink name="Store" />
+                <Link name="About" />
+                <Link name="Store" />
             </div>
             {/* Right Div */}
             <div className="flex space-x-4 items-center">
-                <NavLink name="Gmail" />
-                <NavLink name="Images" />
+                <Link name="Gmail" />
+                <Link name="Images" />
                 {/* Icons */}
                 <ViewGridIcon className="h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer" />
                 {/* Avatar */}

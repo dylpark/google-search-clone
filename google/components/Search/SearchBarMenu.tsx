@@ -4,12 +4,13 @@ import Image from 'next/image'
 import { useRouter } from "next/router"
 import { useRef } from 'react';
 import { XIcon, MicrophoneIcon, SearchIcon } from "@heroicons/react/solid";
-import Avatar from "./Avatar"
+import Avatar from "../Avatar"
+import SearchTypes from "./SearchTypes"
 
 interface Props {
 }
 
-const Header: React.FC<Props> = () => {
+const SearchBarMenu: React.FC<Props> = () => {
 
     const router = useRouter()
     const searchInputRef = useRef<HTMLInputElement>(null);
@@ -23,7 +24,6 @@ const Header: React.FC<Props> = () => {
             return
         }
     }
-
 
     return (
         <header className="sticky top-0 bg-white">
@@ -65,8 +65,9 @@ const Header: React.FC<Props> = () => {
 
                 <Avatar className="ml-auto" url="https://avatars.githubusercontent.com/u/64296934?v=4" />
             </div>
+            <SearchTypes />
         </header>
     );
 }
 
-export default Header;
+export default SearchBarMenu;
