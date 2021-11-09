@@ -4,12 +4,9 @@ Google search engine I'm currently building with React (Next.js) and Tailwind CS
 
 Created with, [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/).
 
-# Current State
+# [Click here to preview the build ->](https://google-two-lovat.vercel.app/)
 
-<img width="800" alt="HomePage" src="./google/preview/home.png">
-<img width="800" alt="HomePage" src="./google/preview/search.png">
-<img width="400" alt="HomePage" src="./google/preview/home-mobile.png">
-<img width="400" alt="HomePage" src="./google/preview/search-mobile.png">
+    Search is using dummy data, to not exhaust free api quota.
 
 ## Getting Started
 
