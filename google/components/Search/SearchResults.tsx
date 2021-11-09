@@ -11,7 +11,7 @@ const SearchResults: React.FC<Props> = ({ results }) => {
     const timeTaken = results.searchInformation?.searchTime
 
     return (
-        <div className="mx-auto w-full pl-3 pr-3 sm:pl-[5%] md:pl=[15%] lg:pl-52">
+        <div className="mx-auto w-full pl-7 pr-7 sm:pl-10 md:pl-20 lg:pl-52">
             <p className="text-grey-text text-xs mb-5 mt-3">
                 About {totalResults} results ({timeTaken} seconds)
             </p>
