@@ -7,10 +7,7 @@ import { XIcon, MicrophoneIcon, SearchIcon } from "@heroicons/react/solid";
 import Avatar from "../Avatar"
 import SearchTypes from "./SearchTypes"
 
-interface Props {
-}
-
-const SearchBarMenu: React.FC<Props> = () => {
+const SearchBarMenu: React.FC = () => {
 
     const router = useRouter()
     const searchInputRef = useRef<HTMLInputElement>(null);

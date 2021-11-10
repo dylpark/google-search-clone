@@ -4,10 +4,7 @@ import Avatar from "../Avatar";
 import BasicLink from "../BasicLink"
 import { ViewGridIcon } from "@heroicons/react/solid";
 
-interface Props {
-}
-
-const Header: React.FC<Props> = () => {
+const Header: React.FC = () => {
     return (
         <header className="text-black-text flex w-full p-5 justify-between text-sm">
             {/* Left Div */}

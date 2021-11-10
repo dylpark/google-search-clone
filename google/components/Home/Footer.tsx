@@ -3,10 +3,7 @@
 import BasicLink from "../BasicLink";
 import { GlobeIcon } from "@heroicons/react/solid";
 
-interface Props {
-}
-
-const Footer: React.FC<Props> = () => {
+const Footer: React.FC = () => {
   return (
     <footer className="grid w-full divide-y-2 divide-solid bg-gray-100 text-sm text-grey-text">
       <div className="px-8 py-3">
