@@ -1,4 +1,4 @@
-# Google 2.0
+# Google Search Clone
 
 Google search engine rebuild with React (Next.js) and Tailwind CSS. (Responsive, Server-Side Rendering, Pagination, TypeScript). The app is using Google's Search API to display results.
 
